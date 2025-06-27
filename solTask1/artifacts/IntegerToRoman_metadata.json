@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solTask1/IntegerToRoman.sol": "IntegerToRoman"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solTask1/IntegerToRoman.sol": {
+			"keccak256": "0x1d42ad57509c588687294914e3128d5ebaab64aa0d774dda4f216a18b946489c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd117a3d568feebfa48afb94ef66ee7909ef09b0645913571081bf86d51b420c",
+				"dweb:/ipfs/QmUBhb9vo46brEWTNwSQnvCWEsTJtb27oihiVzDmsw2s17"
+			]
+		}
+	},
+	"version": 1
+}

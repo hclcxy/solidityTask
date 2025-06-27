@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "m",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "nums2",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "merge",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"merge(uint256[],uint256,uint256[],uint256)": {
+					"details": "合并两个有序数组，结果存储在第一个数组中",
+					"params": {
+						"m": "第一个数组的有效元素数量",
+						"n": "第二个数组的有效元素数量",
+						"nums1": "第一个数组（足够大以容纳合并后的元素）",
+						"nums2": "第二个数组"
+					},
+					"returns": {
+						"_0": "合并后的数组"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solTask1/codeRoman.sol": "MergeSortedArrays"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solTask1/codeRoman.sol": {
+			"keccak256": "0xf8e523de626b5f5711b0e4435b4d602780fa122b884cb0d9e383f7f4728d940b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2118ac4e00996d12b88aae6ac37d4fce915b8e31834da3f9b9a176f1cf5ae021",
+				"dweb:/ipfs/QmQJEhYXJ5pACVX7eBHZL7yJCFh53cK3JZVKAttEUuZYjn"
+			]
+		}
+	},
+	"version": 1
+}
