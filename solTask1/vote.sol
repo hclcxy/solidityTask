@@ -23,7 +23,7 @@ contract Voting{
     }    
 
     //// 一个getVotes函数，返回某个候选人的得票数
-    function getCandidate(address _candidate) public view returns (uint256){
+    function getVotes(address _candidate) public view returns (uint256){
         require(_candidate != address(0), "address error");
         return candidateVoting[_candidate];
     }

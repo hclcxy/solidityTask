@@ -64,7 +64,7 @@
 						"type": "address"
 					}
 				],
-				"name": "getCandidate",
+				"name": "getVotes",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -111,11 +111,11 @@
 	},
 	"sources": {
 		"solTask1/vote.sol": {
-			"keccak256": "0xa913a26a006faa3e2ec25797a40c7692a31793abc4222307a9ea0a98fbe05806",
+			"keccak256": "0x3e35d43f61e0be337dc44240df47bf7ccae9b6edc749e6b0136efdfd86d4ce82",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d4f4e51700d03f6cf9796f7fdd602c19884501c3c7a828d708d22c45f10ef5c8",
-				"dweb:/ipfs/QmWXrsz12CofGcR888ihXFEuqiveLNqEKgWn36Yx1S3z4d"
+				"bzz-raw://0a8ea194738cac4dd84dba331f64d9edf6663d3632bed4828bf5a40c0575b3bc",
+				"dweb:/ipfs/QmNm1KRXKPTPDqA4t9rW4YCkVjVtC8XfzQk8weHvbHDUhB"
 			]
 		}
 	},
